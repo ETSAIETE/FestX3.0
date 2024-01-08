@@ -81,3 +81,9 @@ tl.from(".main_content #moving_text span",{
     duration:0.5,
     delay:-0.5
 })
+
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-87SW97J66T');
